@@ -1,6 +1,18 @@
 #!/bin/bash
 DATABASE_PASS='admin123'
 
+# All These Scripts are for the Backend Process and can be seperated into several instances
+
+echo "Welcome to the Lift and Shift Project"
+
+echo 
+
+echo "#######################################"
+echo "Begin the Process Now"
+echo "#######################################"
+
+
+
 # MEmcache
 yum install epel-release -y
 yum install memcached -y
